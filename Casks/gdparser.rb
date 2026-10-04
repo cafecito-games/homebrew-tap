@@ -8,25 +8,25 @@ cask "gdparser" do
     end
   end
 
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
-      sha256 "3c9fb83aabed064be36cbb4ee613d36749e8b5fe0166fed41965bed4e98b9c81"
+      sha256 "83de30609031ee110851fd40d3bba058e6b2e8cf8bcadc983572934632bfc36f"
       url "https://github.com/cafecito-games/gdparser/releases/download/v#{version}/gdparser_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "148a63a9e815a37ec9858b62abd966284bde9290fc8198b8e6f3c5b8494428c9"
+      sha256 "e1bd552bde334a858a69486aeb26aba272b5e0314d42c2b3934fec2dfa668f02"
       url "https://github.com/cafecito-games/gdparser/releases/download/v#{version}/gdparser_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d2280392d36feed21883001728c6f223554db10de09938201d98cbc4902da59b"
+      sha256 "c1474dc0ef5b4fa222dafdd143f79159d06a01482d661554c40ff0fac0b8b8e6"
       url "https://github.com/cafecito-games/gdparser/releases/download/v#{version}/gdparser_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f9d806e36c3035b1e873eced6bb141d2301cf80eb5566f31b7c5d23492b1efef"
+      sha256 "12c1dc6dc488153d3f31f01ae79095d464f9ebe42f4e7af10f149779af751128"
       url "https://github.com/cafecito-games/gdparser/releases/download/v#{version}/gdparser_#{version}_linux_amd64.tar.gz"
     end
   end
