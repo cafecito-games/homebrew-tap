@@ -8,25 +8,25 @@ cask "grafo" do
     end
   end
 
-  version "0.2.9"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "ffedd64651f0b5ffb3ef0fd4b7687284f2e1a0af067f446fe3040054cb935fa4"
+      sha256 "51effc9ee1b2fa333d71d73bae31753b4e3606ccbce92cd302f0223887827c5e"
       url "https://github.com/cafecito-games/grafo/releases/download/v#{version}/grafo_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "59b225bf7ec283105a584ebb250d69033d3b27b0b9a6362b73f143e05bd7855d"
+      sha256 "cd68251538338b5eca5a5378c2d31a4b6ad90296426da2d6cc91dde663cd2afd"
       url "https://github.com/cafecito-games/grafo/releases/download/v#{version}/grafo_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4a1c61b27b862de34b036e766a8c41b9bfe829d8288d5a5475916c29b3291631"
+      sha256 "755b0db992c22dd47787c650c92139c5feb58280650575aa3759e723b8c2edb1"
       url "https://github.com/cafecito-games/grafo/releases/download/v#{version}/grafo_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "70566570d745887d5a7c121bf6c77809265facf058dcf9f9f47579c3e421e130"
+      sha256 "bbf47b1bc94d027af9fd27d5d3db9ccf53bc36db0bf58670599bbf90d490fb56"
       url "https://github.com/cafecito-games/grafo/releases/download/v#{version}/grafo_#{version}_linux_amd64.tar.gz"
     end
   end
