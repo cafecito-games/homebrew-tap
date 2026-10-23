@@ -8,25 +8,25 @@ cask "gdkit" do
     end
   end
 
-  version "0.8.0"
+  version "0.9.0"
 
   on_macos do
     on_arm do
-      sha256 "bca3af84cdf498a9f368310abb67426911747340e72fc1d17a7896eac65ae57c"
+      sha256 "c9aee4e404b0809f90764a9a4bdfe420c3a9b26d8b7bbdd407e28ff22b79c4eb"
       url "https://github.com/cafecito-games/gdkit/releases/download/v#{version}/gdkit_#{version}_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "12547247042dde29df29aeaf5be55d3f5bfeb1d1b23cf687b9c6b7ae9f9754e8"
+      sha256 "c13454723cec8e431a1b0c642aa5a17d6a19cf15c167318c143ddfe1b86d2869"
       url "https://github.com/cafecito-games/gdkit/releases/download/v#{version}/gdkit_#{version}_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "97877319c4357783425a863f34ec050e344fcca047017936086c575861606c42"
+      sha256 "08bf26eb9b5836e2fc8f59de6391dac09743257487b08ba679c3f46f43615fa8"
       url "https://github.com/cafecito-games/gdkit/releases/download/v#{version}/gdkit_#{version}_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "811d9f0d2ab934c94caa1db5dbb28c6af1a7041820cf19426d388007cf433aad"
+      sha256 "5ab13996be04c0d2e0371a22d9d77e308de5b5527432c5ef475e03f4a910f869"
       url "https://github.com/cafecito-games/gdkit/releases/download/v#{version}/gdkit_#{version}_Linux_x86_64.tar.gz"
     end
   end
