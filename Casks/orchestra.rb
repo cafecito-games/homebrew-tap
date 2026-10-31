@@ -8,25 +8,25 @@ cask "orchestra" do
     end
   end
 
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      sha256 "a74b1100c31ea562726161cac82cfc41662d79bc7d9a99a8a2cd1170cc50a0c8"
+      sha256 "546227078cd18dccf7833533bed5fce1f9bdc2e872dd4028358a80825495698c"
       url "https://github.com/cafecito-games/Orchestra/releases/download/v#{version}/orchestra_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2dcf7f0382474b9fb84eb5723edc2cbb41ed4379483fda6665b87055230473e5"
+      sha256 "a6c552bdc6c0ceb2ea4648291992bfce0711114f303879765dadf651a18ffd47"
       url "https://github.com/cafecito-games/Orchestra/releases/download/v#{version}/orchestra_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "1ab23ad90d1de1e03a487aa80403fb1bfcd35e4091d0c87169d421c58ecd8cd6"
+      sha256 "9b71e1e7574ad7c055786f4259e780c41b1d0c0cecbb3aeff41654b6715a205c"
       url "https://github.com/cafecito-games/Orchestra/releases/download/v#{version}/orchestra_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "97bd497d98f9ddec598b0fcf752bc047f53bebde9cd6278e52abca7d8ca5e075"
+      sha256 "48d5f1e605b6e3f1899f28425456fdd0e6e812978de1aba5a5da47f6513793d6"
       url "https://github.com/cafecito-games/Orchestra/releases/download/v#{version}/orchestra_#{version}_linux_amd64.tar.gz"
     end
   end
