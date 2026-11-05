@@ -8,25 +8,25 @@ cask "gpm" do
     end
   end
 
-  version "0.5.1"
+  version "0.6.0"
 
   on_macos do
     on_arm do
-      sha256 "8ffabb157b18fb11483f4e1c209ab171a6172313cfd0e6358e5d3ff4f2416cdc"
+      sha256 "ae968d3dd66d8c02f38917f730a96375a482be3b8fdfaf1f47a0cbd47eb4c2be"
       url "https://github.com/cafecito-games/godot-package-manager/releases/download/v#{version}/gpm_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "566a8e85ac7891339fe3f812c29b6c87b93ce80ab0bfb420b35b18cd68c1a59b"
+      sha256 "ab4ac0ad00425e2b2fa8609dfdde47b889611b8c0e215591181bf483d9691ab4"
       url "https://github.com/cafecito-games/godot-package-manager/releases/download/v#{version}/gpm_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "eb807f6326bf038cf7b2b23f80ef43724196eecb8cecd507e8b55019a448948a"
+      sha256 "4bdb17ec6cc93449051703171104882ee7b143dba4a23ccc2f1f8aa47f33bcd1"
       url "https://github.com/cafecito-games/godot-package-manager/releases/download/v#{version}/gpm_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "beaba7bc7aa2d05dba09989530fda8240ca53ce2202a63c58f682a8de3527299"
+      sha256 "7de5f1f721312a697ede46b4ff8454d0759261b6fe2f6a8b66cba3c1a809a5ad"
       url "https://github.com/cafecito-games/godot-package-manager/releases/download/v#{version}/gpm_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -41,5 +41,5 @@ cask "gpm" do
 
   binary "gpm"
 
-  # No zap stanza required
+  zap :not_required
 end
