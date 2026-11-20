@@ -9,25 +9,25 @@ cask "gdproto" do
     end
   end
 
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      sha256 "57b674cb0f951f415b1f7af61b1757e173a9d5b263629fbc8fcdcd4618929a6f"
+      sha256 "992ea3fa88d334943762d9b25c7b032966a2d37e8daefca4711d5e503a4bc42c"
       url "https://github.com/cafecito-games/gdproto/releases/download/v#{version}/gdproto_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "39e0bb23e31657f5cfdf2acc9709741625d607e61a30ca1f4a87846b497bf043"
+      sha256 "a0f1a18d7bf82719fa745804ef32a4a4156c6f76ba54745d485ee95db6c9f24f"
       url "https://github.com/cafecito-games/gdproto/releases/download/v#{version}/gdproto_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "153e3e081ff0573c5c7cbf47f48cd0e44f88a7ee94bf8fb1ce210f4dc6d138ea"
+      sha256 "c9f8d67ae12c98eb7534628538b73fca44f159f94d5ff2d4bdf0595b4c6b6919"
       url "https://github.com/cafecito-games/gdproto/releases/download/v#{version}/gdproto_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c6de9efa5ffeac901f41f072f46e7569f56a2e1dff2e31c9daccb5ddea5d2d8e"
+      sha256 "fc74fc130f148dac44fb8537b26ff847b224a2954f1059a6bba2a3ac15a18b89"
       url "https://github.com/cafecito-games/gdproto/releases/download/v#{version}/gdproto_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -43,5 +43,5 @@ cask "gdproto" do
   binary "gdproto"
   binary "protoc-gen-gdscript"
 
-  # No zap stanza required
+  zap :not_required
 end
